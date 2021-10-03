@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Distribution / packaging
+requirements/
+dist/
+
+# Editor directories and files
+.idea
+.vscode
+
+# Environments
+venv/
+env/
+.env*
+
+# Data
+data/
+
+# Exceptions
+!data/.gitkeep
