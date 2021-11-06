@@ -7,9 +7,10 @@ scraper = BingImageScraper()
 for query in queries:
   scraper.start(
       query,
-      limit=100,
+      limit=300,
       output_dir='data',
       adult_filter_on=True,
-      overwrite=False
+      overwrite=False,
+      links_only=True
   )
 
